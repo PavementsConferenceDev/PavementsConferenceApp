@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECYCLED MATERIALS"
+        android:id="@+id/rec_materials_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLD RECYCLING WITHIN ADOT: LESSONS LEARNED AND FUTURE IMPLEMENTATION"
+        android:id="@+id/cold_rec_btn"
+        android:layout_below="@+id/rec_materials_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USE OF RCM/CCA IN BASE/SUB-BASE APPLICATIONS"
+        android:id="@+id/use_of_rcm_btn"
+        android:layout_below="@+id/cold_rec_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEASIBILITY OF USING RECYCLED ASPHALT PAVEMENT(RAP) IN PHOENIX"
+        android:id="@+id/feasibility_btn"
+        android:layout_below="@+id/use_of_rcm_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

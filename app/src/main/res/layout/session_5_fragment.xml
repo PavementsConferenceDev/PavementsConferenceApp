@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECONOMICS OF BINDERS"
+        android:id="@+id/economics_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASPHALT BINDERS - SUPPLY, AVAILABILITY, PRICING, MARKET SITUATION"
+        android:id="@+id/asphalt_binders_btn"
+        android:layout_below="@+id/economics_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE ON THE FUTURE OF FLY ASH"
+        android:id="@+id/fly_ash_btn"
+        android:layout_below="@+id/asphalt_binders_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

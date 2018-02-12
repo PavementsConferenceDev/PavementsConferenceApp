@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INNOVATIONS IN CONCRETE MATERIALS"
+        android:id="@+id/inv_cm_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPER STRONG CARBON FIBER COMPOSITES FOR USE IN BRIDGE STRUCTURAL ENHANCEMENTS"
+        android:id="@+id/strong_carbon_btn"
+        android:layout_below="@+id/inv_cm_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERFORMANCE ENGINEERED MIXES"
+        android:id="@+id/perf_mixes_btn"
+        android:layout_below="@+id/strong_carbon_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ULTRA HIGH PERFORMANCE CONCRETE MATERIALS"
+        android:id="@+id/ultra_high_perf_btn"
+        android:layout_below="@+id/perf_mixes_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE FHWA MOBILE CONCRETE TRAILER - BRINGING NEW TECHNOLOGIES TO YOUR DOORSTEP"
+        android:id="@+id/fhwa_mobile_btn"
+        android:layout_below="@+id/ultra_high_perf_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTONOMOUS VEHICLE TECHNOLOGIES AND THE FUTURE OF TRANSPORTATION"
+        android:id="@+id/autonomous_future_btn"
+        android:layout_below="@+id/fhwa_mobile_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

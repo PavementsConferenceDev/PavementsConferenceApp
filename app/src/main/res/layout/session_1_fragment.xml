@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="FUTURE OF PAVEMENT PERFORMANCE DATA COLLECTION"
+        android:id="@+id/session_1_1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHAT IS HAPPENING IN LTPP"
+        android:id="@+id/session_1_2"
+        android:layout_below="@+id/session_1_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLLECTING PAVEMENT CONDITION DATA USING TECHNOLOGIES EMBEDDED IN CARS AND SMART PHONES"
+        android:id="@+id/session_1_3"
+        android:layout_below="@+id/session_1_2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

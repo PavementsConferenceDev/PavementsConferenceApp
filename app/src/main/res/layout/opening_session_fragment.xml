@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/pavements_logo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Arizona State University"
+        android:id="@+id/openingsessionbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADOT Agency Issues Overview"
+        android:id="@+id/adotagencyissuesoverview"
+        android:layout_below="@+id/openingsessionbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Federal Highway Administration: Update on new administration, new initiatives"
+        android:id="@+id/federalhighwayadministration"
+        android:layout_below="@+id/adotagencyissuesoverview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCDOT: Providing Connections - An Innovative Look at our future"
+        android:id="@+id/mcdotprovidingconns"
+        android:layout_below="@+id/federalhighwayadministration"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ethics: A practical guide to doing right"
+        android:id="@+id/ethicspracticalguide"
+        android:layout_below="@+id/mcdotprovidingconns"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

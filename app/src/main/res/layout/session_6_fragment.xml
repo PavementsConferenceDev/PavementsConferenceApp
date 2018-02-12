@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAINTAINING QUALITY/UTILITY CUTS"
+        android:id="@+id/quality_utility_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAVEMENT AND MANHOLE RING AND COVER CONDITIONS STUDY"
+        android:id="@+id/pvt_manhole_btn"
+        android:layout_below="@+id/quality_utility_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRENCHLESS TECHNOLOGY"
+        android:id="@+id/trenchless_tech_btn"
+        android:layout_below="@+id/pvt_manhole_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

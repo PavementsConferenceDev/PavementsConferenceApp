@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAFETY IN PAVEMENTS"
+        android:id="@+id/safety_pvts_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH FRICTION SURFACE TREATMENT(HFST) INSTALLATION AND CONSTRUCTABILITY"
+        android:id="@+id/hfst_btn"
+        android:layout_below="@+id/safety_pvts_btn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCDOT ROAD SAFETY MANAGEMENT PROGRAM"
+        android:id="@+id/road_safety_btn"
+        android:layout_below="@+id/hfst_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROAD SURFACE CHARACTERISTICS AND ACCIDENTS"
+        android:id="@+id/road_surface_btn"
+        android:layout_below="@+id/road_safety_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
